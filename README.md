@@ -1,4 +1,4 @@
-# Clothing E-Shop
+# PROME Clothing E-Shop
 
 This is a simple e-commerce website built with TypeScript, Express.js, EJS and Node.js.
 
