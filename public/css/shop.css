@@ -1,0 +1,31 @@
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200&display=swap'); */
+
+body {
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    width: 200px;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.img {
+    width: 300px;
+    height: auto;
+}

@@ -1,0 +1,30 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop</title>
+  <link rel="stylesheet" type="text/css" href="/css/shop.css">
+
+  <!-- <link 
+    rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous"> -->
+</head>
+<body>
+  <h1>PROME Clothing</h1>
+  <div class="products">
+    <% products.forEach((product) => { %>
+      <div class="product-card">
+        <img class="img" src="<%= product.image %>" alt="<%= product.name %>">
+        <h2><%= product.name %></h2>
+        <p>Price: $<%= product.price %></p>
+      </div>
+    <% }); %>
+  </div>
+
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+  crossorigin="anonymous"></script> -->
+</body>
+</html>
