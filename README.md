@@ -1,6 +1,6 @@
 # PROME Clothing E-Shop
 
-This is a simple e-commerce website built with TypeScript, Express.js, EJS and Node.js.
+PROME Clothing E-Shop is an upcoming online fashion store. Currently under development, it's leveraging technologies like TypeScript, Express.js, and EJS to deliver an elegant and seamless shopping experience. Once completed, it will demonstrate effective management of server-side rendering, routing, static file serving, and data handling.
 
 ## Overview
 
